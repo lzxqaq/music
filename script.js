@@ -39,7 +39,7 @@ let All_song = [
      singer: "朴树"
    },
    {
-     name: "It's A Small World",
+     name: "It's a Small World",
      path: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/Disney_Classics_It_s_a_Small_World_It_s_a_Small.mp3",
      img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/Disney.jpeg",
      singer: "Disney Classics"
