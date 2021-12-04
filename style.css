@@ -108,6 +108,9 @@ input[type="range"]::-webkit-slider-thumb{
 	justify-content: center;
 	color: #fff;
 }
+.left .volume i{
+	border-radius: 15%;
+}
 .left .volume p{
 	font-size: 15px;
 }
@@ -120,6 +123,7 @@ input[type="range"]::-webkit-slider-thumb{
 	background: rgba(245,245,245,0.1);
 }
 .volume #volume_show{
+	border-radius: 15%;
 	padding: 8px 12px;
 	margin: 0 5px 0 0;
 	background: rgba(245,245,245,0.1);
@@ -137,8 +141,6 @@ input[type="range"]::-webkit-slider-thumb{
 }
 .right .middle button{
 	border: none;
-	height: 70px;
-	width: 70px;
 	border-radius: 50%;	
     display: flex;
 	align-items: center;
@@ -148,6 +150,12 @@ input[type="range"]::-webkit-slider-thumb{
 	transition: 0.5s;
 	background: rgba(255,255,255,0.1);
 }
+
+.middle button {
+	width: 70px;
+	height: 70px;
+}
+
 .right #title{
     position: relative;
 	width: 100%;
@@ -170,10 +178,7 @@ input[type="range"]::-webkit-slider-thumb{
     justify-content: center;
 }
 .right .duration{
-	position: absolute;
-	bottom: 20%;
-	left: 50%;
-	transform: translateX(-50%);
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -333,17 +338,42 @@ input[type="range"]::-webkit-slider-thumb{
 		margin-right: 20px;
 	}
 	.neon-button {
-		font-size: 1rem;
+		font-size: 1.25rem;
 	}
 	.right #title {
 		font-size: 25px;
 	}
+	.middle button {
+		width: 70px;
+		height: 70px;
+	}
 }
 @media screen and (max-width: 480px) {
 	.right #title {
-		font-size: 22px;
+		font-size: 25px;
 	}
 	.right #auto {
 		font-size: 12px;
 	}
+	.right #title{
+		margin-top: 20%;
+	}
+	.right .middle{
+		margin-top: 50%;
+	}
+	.middle button {
+		width: 50px;
+		height: 50px;
+	}
+	.right .show_song_no{
+		font-size: 10px;
+
+	}
+	.volume #volume_show{
+		font-size: 10px;
+	}
+	.left .volume i{
+		font-size: 10px;
+	}
+	
 }
