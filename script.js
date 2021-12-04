@@ -55,7 +55,13 @@ let All_song = [
      path: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/Alan_Silvestri_Forrest_Gump_Suite2.mp3",
      img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/Alan_Silvestri_Forrest_Gump_Suite.jpeg",
      singer: "Alan Silvestri"
-   }
+   },
+   {
+	name: "可悲的时代",
+	path: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/music/在那遥远的地方.mp3",
+	img: "https://cdn.jsdelivr.net/gh/lzxqaq/jsdelivr@master/image/music/KhayranJalgan.png",
+	singer: "哈萨克族民歌"
+  }
 ];
 
 
